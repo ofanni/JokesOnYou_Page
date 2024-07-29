@@ -21,4 +21,12 @@
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Areas\AdminTagsController\Controllers\" />
+      <Folder Include="Areas\AdminTagsController\Data\" />
+      <Folder Include="Areas\AdminTagsController\Models\" />
+      <Folder Include="Areas\AdminTagsController\Views\" />
+      <Folder Include="Views\LoginPage\" />
+    </ItemGroup>
+
 </Project>
