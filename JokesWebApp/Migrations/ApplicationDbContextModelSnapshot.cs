@@ -101,6 +101,25 @@ namespace JokesWebApp.Migrations
                     b.ToTable("Tags");
                 });
 
+            modelBuilder.Entity("JokesWebApp.Models.Domain.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+                    
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("BlogPostTag", b =>
                 {
                     b.HasOne("JokesWebApp.Models.Domain.BlogPost", null)

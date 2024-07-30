@@ -1,6 +1,6 @@
 using Microsoft.Build.Framework;
 
-namespace JokesWebApp.Models
+namespace JokesWebApp.Models.ViewModels
 
 {
     public class LoginViewModel

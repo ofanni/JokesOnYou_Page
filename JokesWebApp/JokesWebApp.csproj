@@ -7,14 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.6.24327.4" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.6.24327.4">
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         <PrivateAssets>all</PrivateAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.7" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0-preview.6.24327.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-preview.6.24327.4">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
@@ -26,7 +28,6 @@
       <Folder Include="Areas\AdminTagsController\Data\" />
       <Folder Include="Areas\AdminTagsController\Models\" />
       <Folder Include="Areas\AdminTagsController\Views\" />
-      <Folder Include="Views\LoginPage\" />
     </ItemGroup>
 
 </Project>

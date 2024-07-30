@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/fanni/RiderProjects/JokesWebApp/JokesWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/fanni/RiderProjects/JokesWebApp/JokesWebApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/fanni/RiderProjects/JokesWebApp/JokesWebApp/Views/AdminTags/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UYWdzL0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

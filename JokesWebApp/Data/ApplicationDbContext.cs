@@ -1,5 +1,7 @@
 using JokesWebApp.Models.Domain;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using JokesWebApp.Models.ViewModels;
 
 namespace JokesWebApp.Data
 {
@@ -12,6 +14,10 @@ namespace JokesWebApp.Data
 
         public DbSet<BlogPost> BlogPosts { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<User> Users { get; set; }
+
+      
+
      
     }
 }
